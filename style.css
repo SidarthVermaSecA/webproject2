@@ -5,7 +5,7 @@
 }
 *::selection{
   background-color: #FFFFFF;
-  color: #e55000;
+  color: #e50000;
 }
 body{
   overflow-x: hidden;
@@ -25,7 +25,7 @@ body::-webkit-scrollbar-thumb {
   background-color: white; color: black;  border-radius: 10px;
 }
 .navbar {
-  background-color: #e55000;
+  background-color: #e50000;
 }
 
 .navbar-brand, .nav-link {
