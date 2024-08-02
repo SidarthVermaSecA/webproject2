@@ -167,12 +167,17 @@ h1{
   background-image: url(images/card4-image.png);
 }
 
+.text-center::selection, .accordion-body::selection{
+  background-color: #e55000;
+  color: white;
+}
+
 .text-over-slides{
   padding-left: 10px;
   height: 100%;
   width: 100%;
   position: absolute;
-  font-size: 100px;
+  font-size: 90px;
   color: white;
   background: rgba(0, 0, 0, 0.466);
 }
@@ -387,3 +392,13 @@ header h2 {
     display: block;
   }
 }
+
+.maps{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
